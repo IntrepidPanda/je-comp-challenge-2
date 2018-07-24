@@ -75,6 +75,10 @@ ul {
   margin: .5rem;
 }
 
+.drop-menu li h3 {
+  margin-top: 1rem;
+}
+
 .first-li {
   border-bottom: .1rem solid #26404C;
   padding-bottom: .5rem;

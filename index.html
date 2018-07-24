@@ -2,190 +2,193 @@
 <html lang="en">
 <head>
   <title>Static Comp #2: Campaign Record</title>
+  <link href="https://fonts.googleapis.com/css?family=Eczar:700|Roboto:400,500" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="normalize.css">
   <link rel="stylesheet" type="text/css" href="styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <header>
-    <nav class="site-nav">
-      <ul>
-        <li><img class="header-icon" src="" alt=""><h2><a href="">HIGHLIGHTS</a></h2></li>
-        <li><img class="header-icon" src="" alt=""><h2><a href="">CAMPAIGNS</a></h2></li>
-        <li><img class="header-icon" src="" alt=""><h2><a href="">QUEST LOGS</a></h2></li>
+    <nav>
+      <ul class="site-nav">
+        <li><img class="header-icon" src="images/highlights-icon.svg" alt=""><h2 class="active">HIGHLIGHTS</h2></li>
+        <li><img class="header-icon" src="images/campaigns-icon.svg" alt=""><h2>CAMPAIGNS</h2></li>
+        <li><img class="header-icon" src="images/quest-log-icon.svg" alt=""><h2>QUEST LOGS</h2></li>
       </ul>
     </nav>
     <aside>
       <details class="user-nav">
         <summary>
-          <img class="header-icon" src="" alt="">
+          <img class="portrait" src="images/character-portrait.jpg" alt="">
           Antigone Malbec
-          <img class="nav-arrow" src="" alt="">
+          <img class="nav-arrow" src="images/nav-arrow.svg" alt="">
         </summary>
-        <ul>
-          <li><h3><a href="">Character Sheet</a></h3></li>
-          <hr>
-          <li><h3><a href="">Tutorials</a></h3></li>
-          <li><h3><a href="">Preferences</a></h3></li>
-          <li><h3><a href="">Sign Out</a></h3></li>
+        <ul class="drop-menu">
+          <li><h3 class="first-li">Character Sheet</h3></li>
+          <li><h3>Tutorials</h3></li>
+          <li><h3>Preferences</h3></li>
+          <li><h3>Sign Out</h3></li>
         </ul>
       </details>
-      <h1>Roll4Initiative!<img class="site-logo" src="" alt=""></h1>
+      <div class="site-title">
+        <h1 class="branding">Roll4Initiative!</h1>
+        <img class="site-logo" src="images/site-logo.svg" alt="">
+      </div>
     </aside>
   </header>
   <main>
     <h1 class="main-title">Highlights</h1>
     <article>
-      <img class="card-img" src="" alt="">
+      <img class="card-img" src="images/gravity-img.jpg" alt="">
       <div class="card-img-overlay">
-        <img class="enter-icon" src="" alt="">
+        <img class="enter-icon" src="images/enter-icon.svg" alt="">
         <div class="recount-counter">
-          <h3>RECOUNTS</h3>
+          <h4>RECOUNTS</h4>
           <p class="numbers">02</p>
         </div>
       </div>
-      <h3>Using Gravity for Fun and Profit</h3>
-      <p class="date">Monday 7/23/18 15:22pm</p>
-      <div class="url">
-        <a href="">https://highlights.roll4initiative.com/c/using_gravity_for_fun_and_profit</a>
+      <div class="card-body">
+        <h3>Using Gravity for Fun and Profit</h3>
+        <p class="date">Monday 7/23/18 15:22pm</p>
+        <p class="url">https://highlights.roll4initiative.com/c/using_gravity_for_fun_and_profit</p>
+        <h4>CAMPAIGN</h4>
+        <p class="campaign-name">Saviour of Espeos</p>
+        <h4>MOMENTOS</h4>
+        <p class="numbers orange">04</p>
       </div>
-      <h4>CAMPAIGN</h4>
-      <p class="campaign-name">Saviour of Espeos</p>
-      <h4>MOMENTOS</h4>
-      <p class="numbers">04</p>
     </article>
     <article>
-      <img class="card-img" src="" alt="">
+      <img class="card-img" src="images/hammer-img.jpg" alt="">
       <div class="card-img-overlay">
-        <img class="enter-icon" src="" alt="">
+        <img class="enter-icon" src="images/enter-icon.svg" alt="">
         <div class="recount-counter">
-          <h3>RECOUNTS</h3>
+          <h4>RECOUNTS</h4>
           <p class="numbers">02</p>
         </div>
       </div>
-      <h3>Have You Considered Getting a Bigger Hammer</h3>
-      <p class="date">Monday 7/23/18 15:22pm</p>
-      <div class="url">
-        <a href="">https://highlights.roll4initiative.com/c/have_you_considered_getting_a_bigger_hammer</a>
+      <div class="card-body">
+        <h3>Have You Considered Getting a Bigger Hammer</h3>
+        <p class="date">Monday 7/23/18 15:22pm</p>
+        <p class="url">https://highlights.roll4initiative.com/c/have_you_considered_getting_a_bigger_hammer</p>
+        <h4>CAMPAIGN</h4>
+        <p class="campaign-name">Magic Murder Mystery</p>
+        <h4>MOMENTOS</h4>
+        <p class="numbers orange">04</p>
       </div>
-      <h4>CAMPAIGN</h4>
-      <p class="campaign-name">Magic Murder Mystery</p>
-      <h4>MOMENTOS</h4>
-      <p class="numbers">04</p>
     </article>
     <article>
-      <img class="card-img" src="" alt="">
+      <img class="card-img" src="images/mist-img.jpg" alt="">
       <div class="card-img-overlay">
-        <img class="enter-icon" src="" alt="">
+        <img class="enter-icon" src="images/enter-icon.svg" alt="">
         <div class="recount-counter">
-          <h3>RECOUNTS</h3>
+          <h4>RECOUNTS</h4>
           <p class="numbers">02</p>
         </div>
       </div>
-      <h3>Obscuring Mist Doesn't Work Like That</h3>
-      <p class="date">Monday 7/23/18 15:22pm</p>
-      <div class="url">
-        <a href="">https://highlights.roll4initiative.com/c/obscuring_mist_doesnt_work_like_that</a>
+      <div class="card-body">
+        <h3>Obscuring Mist Doesn't Work Like That</h3>
+        <p class="date">Monday 7/23/18 15:22pm</p>
+        <p class="url">https://highlights.roll4initiative.com/c/obscuring_mist_doesnt_work_like_that</p>
+        <h4>CAMPAIGN</h4>
+        <p class="campaign-name">Kingmaker</p>
+        <h4>MOMENTOS</h4>
+        <p class="numbers orange">04</p>
       </div>
-      <h4>CAMPAIGN</h4>
-      <p class="campaign-name">Kingmaker</p>
-      <h4>MOMENTOS</h4>
-      <p class="numbers">04</p>
     </article>
     <article>
-      <img class="card-img" src="" alt="">
+      <img class="card-img" src="images/nice-things-1.jpg" alt="">
       <div class="card-img-overlay">
-        <img class="enter-icon" src="" alt="">
+        <img class="enter-icon" src="images/enter-icon.svg" alt="">
         <div class="recount-counter">
-          <h3>RECOUNTS</h3>
+          <h4>RECOUNTS</h4>
           <p class="numbers">02</p>
         </div>
       </div>
-      <h3>This Is Why We Can't Have Nice Things</h3>
-      <p class="date">Monday 7/23/18 15:22pm</p>
-      <div class="url">
-        <a href="">https://highlights.roll4initiative.com/c/this_is_why_we_cant_have_nice_things</a>
+      <div class="card-body">
+        <h3>This Is Why We Can't Have Nice Things</h3>
+        <p class="date">Monday 7/23/18 15:22pm</p>
+        <p class="url">https://highlights.roll4initiative.com/c/this_is_why_we_cant_have_nice_things</p>
+        <h4>CAMPAIGN</h4>
+        <p class="campaign-name">Saviour of Espeos</p>
+        <h4>MOMENTOS</h4>
+        <p class="numbers orange">04</p>
       </div>
-      <h4>CAMPAIGN</h4>
-      <p class="campaign-name">Saviour of Espeos</p>
-      <h4>MOMENTOS</h4>
-      <p class="numbers">04</p>
     </article>
     <article>
-      <img class="card-img" src="" alt="">
+      <img class="card-img" src="images/medusa-img.jpg" alt="">
       <div class="card-img-overlay">
-        <img class="enter-icon" src="" alt="">
+        <img class="enter-icon" src="images/enter-icon.svg" alt="">
         <div class="recount-counter">
-          <h3>RECOUNTS</h3>
+          <h4>RECOUNTS</h4>
           <p class="numbers">02</p>
         </div>
       </div>
-      <h3>The Medusa and the Silver Tea Tray</h3>
-      <p class="date">Monday 7/23/18 15:22pm</p>
-      <div class="url">
-        <a href="">https://highlights.roll4initiative.com/c/the_medusa_and_the_silver_tea_tray</a>
+      <div class="card-body">
+        <h3>The Medusa and the Silver Tea Tray</h3>
+        <p class="date">Monday 7/23/18 15:22pm</p>
+        <p class="url">https://highlights.roll4initiative.com/c/the_medusa_and_the_silver_tea_tray</p>
+        <h4>CAMPAIGN</h4>
+        <p class="campaign-name">Kingmaker</p>
+        <h4>MOMENTOS</h4>
+        <p class="numbers orange">04</p>
       </div>
-      <h4>CAMPAIGN</h4>
-      <p class="campaign-name">Kingmaker</p>
-      <h4>MOMENTOS</h4>
-      <p class="numbers">04</p>
     </article>
     <article>
-      <img class="card-img" src="" alt="">
+      <img class="card-img" src="images/nice-things-2.jpg" alt="">
       <div class="card-img-overlay">
-        <img class="enter-icon" src="" alt="">
+        <img class="enter-icon" src="images/enter-icon.svg" alt="">
         <div class="recount-counter">
-          <h3>RECOUNTS</h3>
+          <h4>RECOUNTS</h4>
           <p class="numbers">02</p>
         </div>
       </div>
-      <h3>This Is Why We Can't Have Nice Things, Part 2</h3>
-      <p class="date">Monday 7/23/18 15:22pm</p>
-      <div class="url">
-        <a href="">https://highlights.roll4initiative.com/c/this_is_why_we_cant_have_nice_things_part_2</a>
+      <div class="card-body">
+        <h3>This Is Why We Can't Have Nice Things, Part 2</h3>
+        <p class="date">Monday 7/23/18 15:22pm</p>
+        <p class="url">https://highlights.roll4initiative.com/c/this_is_why_we_cant_have_nice_things_part_2</p>
+        <h4>CAMPAIGN</h4>
+        <p class="campaign-name">Magic Murder Mystery</p>
+        <h4>MOMENTOS</h4>
+        <p class="numbers orange">04</p>
       </div>
-      <h4>CAMPAIGN</h4>
-      <p class="campaign-name">Magic Murder Mystery</p>
-      <h4>MOMENTOS</h4>
-      <p class="numbers">04</p>
     </article>
     <article>
-      <img class="card-img" src="" alt="">
+      <img class="card-img" src="images/loud-noises-img.jpg" alt="">
       <div class="card-img-overlay">
-        <img class="enter-icon" src="" alt="">
+        <img class="enter-icon" src="images/enter-icon.svg" alt="">
         <div class="recount-counter">
-          <h3>RECOUNTS</h3>
+          <h4>RECOUNTS</h4>
           <p class="numbers">02</p>
         </div>
       </div>
-      <h3>Do Loud Noises Disrupt Spell Casting</h3>
-      <p class="date">Monday 7/23/18 15:22pm</p>
-      <div class="url">
-        <a href="">https://highlights.roll4initiative.com/c/do_loud_noises_disrupt_spell_casting</a>
+      <div class="card-body">
+        <h3>Do Loud Noises Disrupt Spell Casting</h3>
+        <p class="date">Monday 7/23/18 15:22pm</p>
+        <p class="url">https://highlights.roll4initiative.com/c/do_loud_noises_disrupt_spell_casting</p>
+        <h4>CAMPAIGN</h4>
+        <p class="campaign-name">Kingmaker</p>
+        <h4>MOMENTOS</h4>
+        <p class="numbers orange">04</p>
       </div>
-      <h4>CAMPAIGN</h4>
-      <p class="campaign-name">Kingmaker</p>
-      <h4>MOMENTOS</h4>
-      <p class="numbers">04</p>
     </article>
     <article>
-      <img class="card-img" src="" alt="">
+      <img class="card-img" src="images/leshy-img.jpg" alt="">
       <div class="card-img-overlay">
-        <img class="enter-icon" src="" alt="">
+        <img class="enter-icon" src="images/enter-icon.svg" alt="">
         <div class="recount-counter">
-          <h3>RECOUNTS</h3>
+          <h4>RECOUNTS</h4>
           <p class="numbers">02</p>
         </div>
       </div>
-      <h3>The Lich and the Leshy</h3>
-      <p class="date">Monday 7/23/18 15:22pm</p>
-      <div class="url">
-        <a href="">https://highlights.roll4initiative.com/c/the_lich_and_the_leshy</a>
+      <div class="card-body">
+        <h3>The Lich and the Leshy</h3>
+        <p class="date">Monday 7/23/18 15:22pm</p>
+        <p class="url">https://highlights.roll4initiative.com/c/the_lich_and_the_leshy</p>
+        <h4>CAMPAIGN</h4>
+        <p class="campaign-name">Saviour of Espeos</p>
+        <h4>MOMENTOS</h4>
+        <p class="numbers orange">04</p>
       </div>
-      <h4>CAMPAIGN</h4>
-      <p class="campaign-name">Saviour of Espeos</p>
-      <h4>MOMENTOS</h4>
-      <p class="numbers">04</p>
     </article>
   </main>
 </body>
